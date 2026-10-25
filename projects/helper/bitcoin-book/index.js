@@ -154,7 +154,6 @@ module.exports = {
 
     // Bitcoin Custodian Addresses
     "131fpYjELat58RVzPp2A9Bo8oNuKiP4vxg",
-    "15G6tKbavXQ1ynipkZTPAMjEtuosN1Pkmg",
     "13btmzTg63MpdozLoyeVYCeRbXe4dWN52a",
     "1DtXWGnqWrZEk7XQarSkDUidbFdK7bj44n",
     "1JABsaDFCi28sp2uAmbajNJ2NvEiEMETtM",
@@ -437,6 +436,11 @@ module.exports = {
     "33orXrdG44b7uexFP7Yxdqy1m3FirNtdTE",
     "3PSEjhkUQDGRNDPWqAcPhy9tEY6g6AHgPN", // add on 18/09/2026
     "33FyMfJMRnqNvQiPDvE13L9cRHaEAXQziE", // add on 18/09/2026
+    "bc1q6mejasmfzd7hlasnlsnxuptwjk5y7dl3h0g3zj", // add on 21/10/2026
+    "bc1p3dfge99g2ulp8ry7almgr64fmwqzfxqclgh5mca39rzl2lw3zvasavfyzu", // add on 21/10/2026
+    "bc1ps398h24s2zwm763k0n6c7hq9y4r6jm94pf6mxntrwprtj47nyt8q8qacet", // add on 21/10/2026
+    "bc1p0jm3ucw8sh7edx37lw06ce9aaem09tcx2yr2zuenqr33hqce3lps67k0ns", // add on 21/10/2026
+    "bc1pk0ynqw5zt36sep3eq5qe3c70w7vcwremwv092e02e0htm9wlm7zsf4dvt6", // add on 21/10/2026
   ],
   bitmake: [
     // wallet provide by a bitmake team
@@ -481,6 +485,18 @@ module.exports = {
     "bc1q9v9lcpmzk8wf9uvv07szm5t445rnr2capk5mey",
     "bc1qtkrjaaqy3l42zmu7wrw7wn44xkzxxtqespjavk",
     "19XXnYoRw1diwT7MWksBfJ9HoWUKmZV2FG",
+    "1LGr6KF5emU4Rcv3c7Wc3afHmAMrv3DkdH",
+    "12QXuVZgtKX778BaEDkxLGwQgNWicuqPLz",
+    "1HnQHvzTAf3UwE3QjQqqTysHXZ7VkacrAk",
+    "1BLUP7N6aWtCK7d1m7YotX45133ovvqoEC",
+    "1G1gDkRoSi7CGku8TEdAD1zi9UiYR9u4NT",
+    "1BFZkdFDn6Ytis96ThiQiEVU8GK2JPTu5g",
+    "18fqk53PMGnSoKZwj5jok6NhTHfMgRXS2o",
+    "19KgH9DUFTfCLD2kB2PTmeaiuRpvgR4qqH",
+    "1HKRR1uBxcj9xWyP4xpwTM2L65oXwTcr6W",
+    "19kiDf7Mqv9pYWhzCa6EK1nYYQEDEXER6Z",
+    "1E7EjV19u4yKdyXeEfR3H4Rpqpyzr1fJM6",
+    "13fYEp6iYQcpLzbV3HQLAkqrhiN3ZMfdem",
   ],
   btse: ["bc1qaxyju6n2x2tednv8e7hgnhnz44vrfcmuhjxpfk"],
   bybit: [
@@ -510,6 +526,8 @@ module.exports = {
     "1HDnsptgeJ6fYFHCgd1TFzLSRpuVcV51GL",
     "1Nb9NUVWpjruzafXh2uKK5v5xxEEL1hPrH",
     "1P7o14PYsuiaj57DUDWoeD8f36fsc4VgVf",
+    "bc1qknl6p2cmw30cyx3fz4sdvjjqf6sj682qndcerk",
+    "bc1q3krff4s70lx4wfgnrr0ux2c09flcp5rgs2d8k6",
   ],
   cakeDefi: ["3GcSHxkKY8ADMWRam51T1WYxYSb2vH62VL"],
   coindcx: [
@@ -643,7 +661,9 @@ module.exports = {
     "1FhncfokiSDagazXbuVqKQ6ew4oyDmAzhG",
     "1FLKsCiEsABS7LysfDA8R181TQ6eLjoxPv",
     "1L1SN3BxXaXEAzzGcWqjF9svxmN6F2mBoR",
-    "16G1xYBbiNG78LSuZdMqp6tux5xvVp9Wxh"
+    "16G1xYBbiNG78LSuZdMqp6tux5xvVp9Wxh",
+    "38PFUcFi7o7RVYYJjWCodU9t9yiQ9Qt8Gw", // add on 22/10/2026
+    "1MEPB525tEHRFLdq6aR8d2t8jaaRQj2iWX", // add on 22/10/2026
   ],
   hashkey: [
     "bc1qyvppkaa74d9jvtz664a6uxmj09hf0eyg3uhx4h",

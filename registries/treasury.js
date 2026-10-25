@@ -6197,6 +6197,20 @@ const configs = {
       ownTokens: ["0x474021845c4643113458ea4414bdb7fb74a01a77"],
     },
   },
+  'treasury/urm': {
+    base: {
+      tokens: [
+        ADDRESSES.base.USDC,
+        '0xBC7755a153E852CF76cCCDdb4C2e7c368f6259D8', // HESTIA
+        '0x5baBfc2F240bc5De90Eb7e19D789412dB1dEc402', // CIRCLE
+      ],
+      owners: ['0xd3e9637Cfc255AD3FffA1e88Bd9BA7fa5a76b4Fe'], // Fortress
+      resolveUniV3: true,
+      ownTokens: ['0xf0e3349f00972475a5d16721796091aa3b997837'], // URM
+      blacklistedTokens: ['0x95fa3FA511Ef8DD9e48453eaE76b241D1c1AC651'], // fURM
+      fetchCoValentTokens: false,
+    },
+  },
   'treasury/uwulend': {
     ethereum: {
       tokens: [
@@ -6626,6 +6640,18 @@ const configs = {
       ],
       owners: ["0xb056b9a45f09b006ec7a69770a65339586231a34"],
       ownTokens: ["0x6b5204b0be36771253cc38e88012e02b752f0f36"],
+    },
+  },
+  'treasury/infer': {
+    ethereum: {
+      owners: ['0x6Ac8fF96Fb8DCF5d79A8eF1E59D9AC23f2BD27Bc'],
+      tokens: [
+        '0xD34a99Bc0f67aE1bbd63C660e6d0b0dd03E263B7', // IMD
+        '0x9Efa934D9fAd4AE28c998a40195646b965a97247', // sIMD
+        ADDRESSES.ethereum.USDC,
+      ],
+      ownTokens: ['0x53d0eA0A685220718Dc6a0a6e4617194C6F37921', '0x61aAF8a992A3143e2B0C9cB0030b9fE702854a25'], // INFER, imdUSD
+      fetchCoValentTokens: false,
     },
   },
   'treasury/zyber-swap': {

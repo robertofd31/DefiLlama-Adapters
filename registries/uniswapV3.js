@@ -243,6 +243,12 @@ const uniV3Configs = {
       fromBlock: 3579833,
     },
   },
+  'bitblocks-finance-v3': {
+    bsc: {
+      factory: '0xa83f730fd076574f9ad6b54af653ab9e4743d3ac',
+      fromBlock: 127693063,
+    },
+  },
   'bitswap-bb-v3': {
     bouncebit: {
       factory: '0x30a326d09E01d7960a0A2639c8F13362e6cd304A',
@@ -1929,6 +1935,10 @@ const uniV3Configs = {
     methodology: 'Value of the tokens held in every CommunityV3 pool on Ethereum, discovered from factory PoolCreated events.',
     // unmodified Uniswap V3 deployment (same pool init code hash); factory owner burned, so protocol fee is permanently off
     ethereum: { factory: '0x00a38533c68327aBE0Cc265436e036066E2D6B38', fromBlock: 25895766 },
+  },
+  'vetrade-v3': {
+    start: '2026-10-11',
+    vechain: { factory: '0xc2faf0f48fb7763b28e6f7e415c50b360cc1a096', fromBlock: 26117867 },
   },
 }
 
