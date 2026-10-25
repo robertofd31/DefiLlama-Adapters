@@ -2,10 +2,10 @@ const { getLogs2 } = require('../helper/cache/getLogs')
 const { sumTokens2 } = require('../helper/unwrapLPs')
 
 const config = {
-  era: { fromBlock: 9775, factories: ['0x9D63d318143cF14FF05f8AAA7491904A494e6f13'] },
-  linea: { fromBlock: 716, factories: ['0xc5916f6cF441c72DaA2E2C48AfC7CE642eEe6690'] },
-  sophon: { fromBlock: 38459, factories: ['0x0f6e27007e257e74c86522387BD071D561ba3C97'] },
-  scroll: { fromBlock: 80875, factories: ['0xB11042007e78bE92dc1c79DA1e7eF499b4B31838'] },
+  era: { fromBlock: 51798192, factories: ['0x9D63d318143cF14FF05f8AAA7491904A494e6f13'] },
+  linea: { fromBlock: 16713943, factories: ['0xc5916f6cF441c72DaA2E2C48AfC7CE642eEe6690'] },
+  sophon: { fromBlock: 3148023, factories: ['0x0f6e27007e257e74c86522387BD071D561ba3C97'] },
+  scroll: { fromBlock: 14339080, factories: ['0xB11042007e78bE92dc1c79DA1e7eF499b4B31838'] },
 }
 
 async function tvl(api) {
